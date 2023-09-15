@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(134, 0, 0), rgb(255, 182, 45));
+    width: 100%;
+    height: auto;
+    font-family: Arial, sans-serif;
+}
+
+.tuplogo {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+
+.coeicon {
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: 5px;
+}
+
+
+.header {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: flex;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(111, 2, 24);
+    color: white;
+}
+
+.cqilogo {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 2px;
+}
+
+.webname {
+    text-align: center;
+    padding: 30px;
+    margin-left: 70px;
+}
+
+.login {
+    margin-left: 430px;
+    padding: 10px;
+    width: 550px;
+    height: auto;
+    background-color: rgb(28, 26, 26);
+    margin-bottom: 65px;
+}
+
+.user {
+    text-align: center;
+    margin-right: 250px;
+    color: white;
+    padding: 20px;
+}
+
+.line {
+    position: relative;
+    padding: 10px;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    border-top: 3px solid;
+    border-color: white;
+}
+
+.username {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-right: 330px;
+}
+
+.username input[type="text"] {
+    padding: 3px;
+    margin-left: 60px;
+    width: 400px;
+    margin-top: 8px;
+}
+
+.username input:focus,
+.username input:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.password {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-right: 330px;
+}
+
+.password input[type="text"] {
+    padding: 3px;
+    margin-left: 60px;
+    width: 400px;
+    margin-top: 8px;
+}
+
+.password input:focus,
+.password input:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.birthdate {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-right: 330px;
+}
+
+.birthdate input[type="date"] {
+    padding: 3px;
+    margin-left: 60px;
+    width: 400px;
+    margin-top: 8px;
+}
+
+.birthdate input:focus,
+.birthdate input:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.in ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+}
+
+.in li {
+    display: inline;
+    margin-right: 140px;
+    margin-left: 50px;
+}
+
+.in li a {
+    text-decoration: none;
+    color: white;
+}
+
+.in li button {
+    padding: 5px;
+    color: white;
+    background-color: crimson;
+}
+
+.forgot {
+    color: white;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.footer {
+    background-color: #999999;
+    text-align: right;
+    padding: 10px;
+}
+
+@media(max-width: 459px) {
+    .login .header .webname .tuplogo .cqilogo .coeicon {
+        flex-direction: column;
+    }
+}

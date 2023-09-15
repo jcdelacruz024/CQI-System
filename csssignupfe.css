@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(134, 0, 0), rgb(255, 182, 45));
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tuplogo {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 7px;
+}
+
+.coeicon{
+    position:absolute;
+    margin-left: 1015px;
+    margin-top: 7px;
+}
+
+
+.header {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: flex;
+    text-align: center;
+    padding: 20;
+    background-color: rgb(111, 2, 24);
+    color: white;
+}
+
+.cqilogo {
+    position:absolute;
+    margin-left: 550;
+    margin-top: 2;
+}
+
+.webname {
+    text-align: center;
+    padding: 27;
+    margin-left: 70;
+}
+
+
+.login {
+    margin-left: 430;
+    padding: 10;
+    width: 550;
+    height: auto;
+    background-color: rgb(28, 26, 26);
+    margin-bottom: 65;
+}
+
+.user {
+    text-align: center;
+    margin-right: 250px;
+    color: white;
+    padding: 20px;
+}
+
+.line {
+    position:relative;
+    padding: 10px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border-top: 3px solid;
+    border-color: white;
+}
+
+.realname ul {
+    list-style: none;
+    padding: 5;
+    margin: 0;
+}
+
+.namefl li {
+    display: inline;
+    padding: 5px;
+    color: white;
+    margin-left: 50;
+    margin-right: 80;
+}
+
+.inputnamefl li {
+    display: inline;
+    padding: 5px;
+    margin-left: 60;
+    margin-right: -15;
+}
+
+.realname input:focus,
+.realname input:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+
+.username {
+    text-align: center;
+    padding: 10;
+    color: white;
+    margin-right: 330px;
+}
+
+.username input[type="text"] {
+    padding: 3;
+    margin-left: 60;
+    width: 400;
+    margin-top: 8;
+}
+
+.username input:focus,
+.username input:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.password {
+    text-align: center;
+    padding: 10;
+    color: white;
+    margin-right: 330px;
+}
+
+.password input[type="text"] {
+    padding: 3;
+    margin-left: 60;
+    width: 400;
+    margin-top: 8;
+}
+
+.password input:focus,
+.password input:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.birthdate {
+    text-align: center;
+    padding: 10;
+    color: white;
+    margin-right: 330px;
+}
+
+.birthdate input[type="date"] {
+    padding: 3;
+    margin-left: 60;
+    width: 400;
+    margin-top: 8;
+}
+
+.birthdate input:focus,
+.birthdate input:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.tupid {
+    text-align: center;
+    padding: 10;
+    color: white;
+    margin-right: 310px;
+}
+
+.tupid input[type="text"] {
+    padding: 3;
+    margin-left: 60;
+    width: 400;
+    margin-top: 8;
+}
+
+.tupid input:focus,
+.tupid input:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.email {
+    text-align: center;
+    padding: 10;
+    color: white;
+    margin-right: 350px;
+}
+
+.email input[type="text"] {
+    padding: 3;
+    margin-left: 60;
+    width: 400;
+    margin-top: 8;
+}
+
+.email input:focus,
+.email input:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.address {
+    text-align: center;
+    padding: 10;
+    color: white;
+    margin-right: 330px;
+}
+
+.address input[type="text"] {
+    padding: 3;
+    margin-left: 60;
+    width: 400;
+    margin-top: 8;
+}
+
+.address input:focus,
+.address input:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.role {
+    text-align: center;
+    padding: 10;
+    color: white;
+    margin-right: 350px;
+}
+
+.role select {
+    padding: 3;
+    margin-left: 60;
+    width: 400;
+    margin-top: 8;
+}
+
+.role select:focus,
+.role select:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.course {
+    text-align: center;
+    padding: 10;
+    color: white;
+    margin-right: 340px;
+}
+
+.course select {
+    padding: 3;
+    margin-left: 60;
+    width: 400;
+    margin-top: 8;
+}
+
+.course select:focus,
+.course select:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.sex {
+    text-align: center;
+    padding: 10;
+    color: white;
+    margin-right: 350px;
+}
+
+.sex select {
+    padding: 3;
+    margin-left: 60;
+    width: 400;
+    margin-top: 8;
+}
+
+.sex select:focus,
+.sex select:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-left: 60;
+    cursor: pointer;
+    color: white;
+}
+
+#agree-checkbox:focus,
+#agree-checkbox:valid {
+    border-color: rgb(255, 182, 45);
+}
+
+.confirm {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.confirm a {
+    text-decoration: none;
+    color: white;
+}
+
+.confirm button {
+    padding: 15px;
+    width: 490px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #999999;
+    text-align: right;
+    padding: 12;
+}
